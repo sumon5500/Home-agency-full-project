@@ -1,0 +1,364 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+/* Global css start */
+.container{
+    
+}
+.row{
+    width: 100%;
+    float: left;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+a, a:hover{
+    text-decoration: none;
+}
+body{
+    
+    
+}
+
+ul{
+    list-style: none;
+    display: inline-block;
+}
+/* Global css end */
+/* ***************************** */
+
+/* ********************* */
+.header-section{
+    width: 100%;
+    float: left;
+}
+.top-header{
+    width: 100%;
+    background: #f5f7fa;
+    float: left;
+    
+   
+}
+.top-header ul li{
+    margin-top: 5px;
+    margin-left: 10px;
+    display: inline-block; 
+}
+.top-header ul li i{
+    color: #4d6782 !important;
+    font-size: 14px;
+    
+}
+.top-header ul li span{
+    margin-left: 5px;
+    color: #4d6782 !important;
+    font-size: 16px;
+    
+}
+/* ************ */
+
+/* ********************* */
+/* social icon css start */
+#list{
+    float: left;
+    margin-left: 300px;
+}
+#list ul{
+    list-style: none;
+}
+#list ul li i{
+    background: #00bc9c;
+}
+
+
+
+/* social end */
+/* **************************** */
+
+/* main-menu start */
+.main-menu{
+    width: 100%;
+    float: left;
+}
+
+.navbar-light .navbar-brand {
+    color: rgba(0,0,0,.9);
+    width: 100px;
+    margin: 40px 0px;
+}
+
+.main-menu .navbar-nav {
+    font-weight: 900;
+    font-size: 15px;
+    margin: 0px 60px 0px 30px;
+}
+.navbar-light .navbar-brand {
+    color: rgba(0,0,0,.9);
+    width: 143px;
+    margin: 0px 0px;
+}
+.navbar-nav a{
+    color: #506a85;
+    margin-left: 20px;
+}
+
+.fa-search{
+    margin-left: 120px;
+    color: #506a85;
+}
+/* main menu end */
+/* header section end */
+/* ************************************************ */
+
+/* banner section start */
+.slider{
+    width: 100%;
+   
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    display: inline-block;
+    width: 6rem;
+    height: 3rem;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: 100% 100%;
+    margin: 150px 0px 0px 0px;
+}
+.w-100 {
+    width: 100%!important;
+    height: 600px;
+    margin: 0px;
+}
+.slider .btn-light {
+    color: #fff;
+    background-color: #00bc9c;
+    border-color: #00bc9c;
+    padding: 9px 35px;
+    margin: 20px 0px 200px 0px;
+    font-weight: 500;
+}
+.slider .btn-light:hover{
+    background: transparent;
+    border: 1px solid #00bc9c;
+    transition: .5s;
+}
+/* banner section end */
+/* ************************************* */
+
+/* feature of beautiful section start */
+.feature{
+    width: 100%;
+}
+.feature .title{
+    text-align: center;
+    margin: 80px 0px 40px 0px;
+}
+.feature .title  h1{
+    margin: 10px 0px 20px 0px;
+    font-size: 46px;
+    font-weight: 500;
+    line-height: 46px;
+    color: #506a85;
+}
+.feature .title p{
+    margin: 10px 0px 10px 0px;
+    
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 24px;
+}
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: none;
+    border-radius: .25rem;
+}
+img, svg {
+    vertical-align: middle;
+    margin: 20px 0px 0px 70px;
+    height: 50px;
+    width: 45px;
+}
+.card-title {
+    margin-bottom: .5rem;
+    font-size: 18pt;
+    font-weight: 600;
+}
+.card-text:last-child {
+    margin-bottom: 0;
+    font-size: 12px;
+}
+/* feature css end */
+/* ************************************************* */
+
+/* checkout section css start */
+.checkout{
+    margin: 50px 0px 0px 0px;
+    width: 100%;
+    float: left;
+    background: #f2f5f7;
+}
+.inner-check{
+    margin-top: 40px;
+}
+.inner-check h1{
+
+}
+.inner-check p{
+    margin: 10px 0px 40px 0px;
+}
+#card2{
+    text-align: center;
+    flex: 1 1 auto;
+    padding: 20px 20px;
+}
+.port{
+    text-align: center;
+}
+.port img, svg {
+    vertical-align: middle;
+    margin: 0px 0px 0px 0px;
+    
+}
+.card-img, .card-img-bottom, .card-img-top {
+    
+    height: 100%;
+}
+.port small{
+    margin: 0px 0px 0px 0px;
+    padding: 0px;
+}
+/* portfolio css end */
+/* ************************************************** */
+
+
+/* carousel css start */
+.caro{
+    margin: 50px 0px;
+}
+.item img{
+    height: 170px;
+    margin: 50px 0px 20px 0px;
+}
+.owl-theme .owl-nav.disabled+.owl-dots {
+    margin-top: 10px;
+    margin-bottom: 70px;
+}
+/* owlcarousel css end */
+/* ******************************************************************** */
+
+/* want to work start */
+.want{
+    text-align: center;
+    width: 100%;
+}
+.inner-want h1{
+    margin: 90px 0px 15px 0px;
+}
+.inner-want .btn-light{
+    font-weight: 700;
+    color: #fff;
+    border: 1px solid #00bc9c;
+    border-radius: 3px;
+    padding: 8px 20px;
+    margin: 20px 0px 90px 0px;
+}
+.inner-want .btn-light:hover{
+    transition: .5s;
+    background: transparent !important;
+    border: 1px solid #00bc9c;
+    color: #00bc9c;
+}
+/* want to work section end */
+
+/* About section satrt */
+.about{
+    width: 100%;
+    background: #2f4052;
+    float: left;
+}
+.inner-about{
+    position: relative;
+    margin: 70px 0px 0px 40px;
+}
+.inner-about h1{
+    color: #fff;
+    font-size: 40px;
+    font-weight: 900;
+    
+}
+.inner-about h5{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    margin: 30px 0px 7px 0px;
+}
+.inner-about small{
+    color: #b3b3b3;
+    font-size: 12px;
+    font-weight: 500;
+    margin: 30px 0px 7px 0px;
+    
+}
+.inner-about p{
+    color: #b3b3b3;
+    font-size: 16px;
+    font-weight: 500;
+    margin: 20px 0px 7px 0px;
+    
+}
+.inner-about img{
+    height: 100%;
+    width: 100%;
+    margin: 20px 0px 7px 0px;
+}
+
+.inner-about input {
+    padding: 7px 6px;
+    width: 227px;
+    border: #506a85;
+    font-size: 12px;
+    border-radius: 5px;
+    color: #e4eaf0;
+    margin: 20px 0px;
+    background: #2233 !important;
+}
+.inner-about button {
+    font-size: 12px;
+    position: absolute;
+    bottom: 22.5px;
+    left: 146px;
+    padding: 3.5px 10px;
+}
+/* about css end */
+/* ***************************************** */
+
+/* footer section start */
+.footer {
+    width: 100%;
+    background: #283645 !important;
+    float: left;
+}
+.footer .navbar-light .navbar-nav .nav-link {
+    color: #757575;
+    font-size: 14px;
+    font-weight: 400;
+}
+.footer .navbar-light .navbar-nav .nav-link:hover {
+    color: #b4b4b4;
+   
+}
+.navbar-light .navbar-text {
+    color: #757575;
+    font-size: 14px;
+    font-weight: 400;
+}
